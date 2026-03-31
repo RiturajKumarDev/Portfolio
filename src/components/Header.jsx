@@ -1,4 +1,4 @@
-import "./Header.css";
+import "./header.css";
 import MenuItem from "./MenuItem";
 
 const Header = ({ togaleMenu, selectMenu, menuItems, seletedMenu }) => {
