@@ -55,6 +55,8 @@ header {
 
 @media screen and (max-width: 1000px) {
   header {
+    padding: 20px 20px;
+    
     .menu-btn {
       display: block;
     }

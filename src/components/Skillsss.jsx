@@ -71,9 +71,9 @@ const Skills = () => {
                         })}
                     </div>
                 </div>
-            })};
+            })}
         </div>
-    );
+    )
 }
 
 export default Skills;

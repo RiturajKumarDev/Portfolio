@@ -1,9 +1,8 @@
 .work {
   /* background-color: red; */
   margin: 20px 5px;
-  height: 40vh;
   height: 260px;
-  width: 260px;
+  min-width: 260px;
   border-radius: 10px;
   overflow: hidden;
   position: relative;
