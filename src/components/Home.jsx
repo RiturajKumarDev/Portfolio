@@ -21,7 +21,7 @@ const Home = () => {
         </p>
         <div className="gitHub-resume">
           <a
-            href="img/Rituraj Kumar Resume.pdf"
+            href="/img/Rituraj Kumar Resume.pdf"
             className="resume"
             download=""
             target="_main"
@@ -58,7 +58,7 @@ const Home = () => {
         </div>
       </div>
       <div className="my-pic">
-        <img src="img/rituraj-kumar-img.jpg" alt="Rituraj's pic" />
+        <img src="/img/rituraj-kumar-img.jpg" alt="Rituraj's pic" />
       </div>
     </div>
   );
