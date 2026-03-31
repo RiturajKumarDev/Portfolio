@@ -1,0 +1,28 @@
+.mobileMenu {
+  background-color: black;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  transition: all 0.7s;
+  display: none;
+  z-index: 1000;
+
+  ul {
+    padding: 10px;
+
+    li {
+      color: white;
+      list-style: none;
+      text-align: center;
+      margin: 5px;
+      font-size: 24px;
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .mobileMenu {
+    display: block;
+  }
+}

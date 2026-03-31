@@ -1,0 +1,33 @@
+.projects {
+  min-height: calc(100vh - 100px);
+  h2 {
+    text-align: center;
+  }
+
+  .project {
+    /* background-color: yellow; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    .web,
+    .app {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      overflow-x: scroll;
+      scrollbar-width: none;
+      justify-content: space-around;
+      height: 100%;
+
+      .work:hover img {
+        transform: scale(1.05);
+      }
+
+      .work:hover .app-info {
+        height: inherit;
+      }
+    }
+  }
+}

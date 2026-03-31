@@ -1,0 +1,50 @@
+.work {
+  /* background-color: red; */
+  margin: 20px 5px;
+  height: 40vh;
+  height: 260px;
+  width: 260px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.5s;
+
+  img {
+    display: block;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    transition: transform 0.5s;
+  }
+
+  .app-info {
+    width: 100%;
+    height: 0;
+    position: absolute;
+    align-content: center;
+    text-align: center;
+    color: var(--main-text-color);
+    border-radius: inherit;
+    background: var(--main-button-bg-color);
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    color: black;
+    transition: height 0.5s;
+
+    h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 10px;
+      font-size: 18px;
+      padding: 19px;
+      border-radius: 100%;
+      background-color: white;
+      color: var(--main-bg-color);
+    }
+  }
+}

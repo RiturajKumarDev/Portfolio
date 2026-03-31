@@ -1,0 +1,41 @@
+.skill {
+  background-color: #f4f4f4;
+  margin: 10px;
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  text-align: center;
+  align-content: center;
+  cursor: pointer;
+  transition: all 0.7s;
+
+  .skill-icon {
+    font-size: 50px;
+  }
+
+  h3 {
+    color: black;
+  }
+
+  .skill-level {
+    background-color: lightblue;
+    margin: 10px;
+    border-radius: 20px;
+    height: 10px;
+
+    .skill-progress {
+      border-radius: inherit;
+      height: inherit;
+    }
+
+    span {
+      color: black;
+      display: none;
+    }
+  }
+
+  &:hover {
+    box-shadow: 0 20px 80px;
+    transform: scale(1.05);
+  }
+}

@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 1s all;
+}
+
+:root {
+  --main-text-color: white;
+  --main-hover-color: cyan;
+  --main-bg-color: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --main-button-border-color: yellow;
+  --main-box-shadow-color: rgba(138, 92, 255, 0.6);
+  --main-button-bg-color: linear-gradient(90deg, #5b8cff, #c05cff);
+  --main-font-family-text: "Times New Roman", Times, serif;
+}
+
+body {
+  background: var(--main-bg-color);
+  color: var(--main-text-color);
+  font-family: var(--main-font-family-text);
+}
+
+#root {
+  min-height: 100vh;
+  padding: 0;
+  transform: scale(0.9);
+  opacity: 0;
+  animation: zoomIn 0.8s ease-out forwards;
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+img,
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.show {
+  display: block;
+}
+
+.my-pic {
+  /* background-color: green; */
+  align-content: center;
+  text-align: center;
+
+  img {
+    height: 330px;
+    border: 7px var(--main-bg-sec-color) solid;
+    border-radius: 100%;
+    box-shadow: 0 0 20px var(--main-bg-sec-color);
+    transition: 1s all;
+
+    &:hover {
+      box-shadow: 0 0 40px var(--main-bg-sec-color);
+      transform: scale(1.05);
+      /* transform: rotateY(360deg); */
+    }
+  }
+}
+
+.R {
+  background: var(--main-bg-color);
+  padding: 0 2px;
+  border-radius: 5px;
+  color: rgb(53, 51, 51);
+  box-shadow: 0 0 5px inset white;
+}

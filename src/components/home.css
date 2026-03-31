@@ -1,0 +1,108 @@
+.home {
+  /* background-color: var(--main-button-border-color); */
+  height: 90vh;
+  display: flex;
+  transition: 0.5s;
+
+  .name-info {
+    /* background-color: red; */
+    width: calc(100% - 500px);
+    align-content: center;
+    text-align: center;
+
+    .home-name {
+      font-size: 3.5rem;
+      margin: 10px 0;
+    }
+
+    .webAndMobileDev {
+      font-size: 2rem;
+      margin: 5px;
+    }
+
+    .gitHub-resume {
+      .gitHub,
+      .resume {
+        display: inline-block;
+        border: 2px solid var(--main-button-border-color);
+        margin: 10px;
+        background: var(--main-button-bg-color);
+        padding: 10px;
+        border-radius: 7px;
+        color: white;
+        font-size: 18px;
+        transition: 0.8s all;
+        box-shadow: 0 0 10px var(--main-box-shadow-color);
+        color: var(--main-text-color);
+      }
+
+      .gitHub:hover,
+      .resume:hover {
+        box-shadow: 0 0 30px var(--main-box-shadow-color);
+        transform: translateY(-5px);
+      }
+    }
+    .social-icons {
+      a {
+        display: inline-block;
+        text-decoration: none;
+        margin: 0 10px;
+        font-size: 30px;
+        background: var(--main-button-bg-color);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: transform 0.5s all;
+      }
+
+      a:hover {
+        transform: translateY(-5px);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+
+    .name-info {
+      text-align: center;
+      align-content: center;
+      height: 50%;
+      width: 100%;
+
+      .home-name {
+        font-size: 2.5rem;
+        margin: 10px 0;
+      }
+
+      .webAndMobileDev {
+        font-size: 1.5rem;
+        margin: 5px;
+      }
+
+      .social-icons {
+        a {
+          display: inline-block;
+          text-decoration: none;
+          margin: 0 10px;
+          font-size: 30px;
+          transition: transform 0.7s;
+        }
+
+        a:hover {
+          color: var(--main-hover-color);
+          transform: translateY(-5px);
+        }
+      }
+    }
+
+    .my-pic {
+      text-align: center;
+      align-content: center;
+      height: 50%;
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,120 @@
+.contact {
+  /* background-color: red; */
+  height: 90vh;
+
+  .content {
+    /* background-color: green; */
+    height: inherit;
+    display: flex;
+    width: 100%;
+
+    .social {
+      /* background-color: pink; */
+      width: calc(100% - 500px);
+      width: 50%;
+      text-align: center;
+
+      .contact-me {
+        margin-top: 5px;
+        text-align: left;
+      }
+
+      .social-container {
+        align-content: center;
+        min-height: calc(100% - 40px);
+
+        p {
+          margin: 20px;
+          font-size: 20px;
+
+          i {
+            background: var(--main-button-bg-color);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+        }
+
+        .social-icons {
+          a {
+            display: inline-block;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 30px;
+            transition: transform 0.5s;
+            background: var(--main-button-bg-color);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+
+          a:hover {
+            transform: translateY(-5px);
+          }
+        }
+      }
+    }
+
+    .form {
+      height: inherit;
+      width: 50%;
+      text-align: center;
+      align-content: center;
+
+      input,
+      .sms,
+      button {
+        outline: none;
+        border: 2px solid transparent;
+        background:
+          linear-gradient(white, white) padding-box,
+          linear-gradient(45deg, #ff6b6b, #4ecdc4) border-box;
+        width: 90%;
+        margin: 20px 0;
+        height: 40px;
+        padding: 10px;
+        border-radius: 7px;
+        /* box-shadow: 0 0 2px white; */
+        font-size: 15px;
+      }
+
+      .sms {
+        height: 200px;
+        font-size: 18px;
+        font-weight: 900;
+      }
+
+      button {
+        cursor: pointer;
+        background: var(--main-button-bg-color);
+        border: 2px solid var(--main-button-border-color);
+        color: var(--main-text-color);
+        box-shadow: 0 0 10px var(--main-box-shadow-color);
+        font-weight: 900;
+        transition: 0.8s all;
+      }
+
+      button:hover {
+        box-shadow: 0 0 30px var(--main-box-shadow-color);
+        transform: translateY(-5px);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .contact {
+    .content {
+      /* justify-content: space-around; */
+      flex-direction: column;
+      /* background-color: green; */
+
+      .social {
+        /* background-color: red; */
+        min-width: 100%;
+      }
+
+      .form {
+        min-width: 100%;
+      }
+    }
+  }
+}
