@@ -1,5 +1,5 @@
 import Project from "./Project";
-import "./projects.css";
+import "./Projects.css";
 
 const Projects = () => {
     const webProjectsList = [

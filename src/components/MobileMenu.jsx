@@ -1,5 +1,5 @@
 import MenuItem from "./MenuItem";
-import "./mobileMenu.css";
+import "./MobileMenu.css";
 
 const MobileMenu = ({ menuItems, seletedMenu, selectMenu, togaleMenu, isOpen }) => {
     return (

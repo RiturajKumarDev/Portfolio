@@ -1,6 +1,6 @@
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
-import "./contact.css";
+import "./Contact.css";
 
 emailjs.init({
     publicKey: "wrzGPvG8Dq_aUT-zh",

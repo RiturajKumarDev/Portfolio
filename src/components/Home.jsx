@@ -1,4 +1,4 @@
-import "./home.css";
+import "./Home.css";
 import Typing from "./Typing";
 
 const Home = () => {
