@@ -1,6 +1,6 @@
 import About from "./About"
 import Home from "./Home"
-import Skills from "./skills";
+import Skills from "./Skillsss";
 import Projects from './Projects';
 import Contact from './Contact'
 
