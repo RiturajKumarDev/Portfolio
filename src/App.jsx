@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-      <Header togaleMenu={togaleMenu} selectMenu={selectMenu} menuItems={menuItems} seletedMenu={seletedMenu}></Header>
+      <Header togaleMenu={togaleMenu} menuState={menuState} selectMenu={selectMenu} menuItems={menuItems} seletedMenu={seletedMenu}></Header>
       {menuState ? <MobileMenu selectMenu={selectMenu} menuItems={menuItems} seletedMenu={seletedMenu} togaleMenu={togaleMenu} isOpen={menuState}></MobileMenu> : ""}
       <main>
         <Hero seletedMenu={seletedMenu}></Hero>

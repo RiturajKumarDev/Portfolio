@@ -1,7 +1,7 @@
 import "./header.css";
 import MenuItem from "./MenuItem";
 
-const Header = ({ togaleMenu, selectMenu, menuItems, seletedMenu }) => {
+const Header = ({ menuState, togaleMenu, selectMenu, menuItems, seletedMenu }) => {
   return (
     <header id="home">
       <h1>
@@ -13,7 +13,7 @@ const Header = ({ togaleMenu, selectMenu, menuItems, seletedMenu }) => {
         role="button"
         className="menu-btn"
         onClick={() => togaleMenu()}
-      >☰</a>
+      > {menuState ? "X" : '☰'}</a>
       <nav>
         <ul>
           {menuItems.map((menuItem) => {

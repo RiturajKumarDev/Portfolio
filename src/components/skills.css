@@ -7,3 +7,15 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
+@media screen and (max-width: 1000px) {
+  .skills {
+    justify-content: space-around;
+  }
+
+  .skill {
+    height: 140px;
+    width: 140px;
+    margin: 5px;
+  }
+}

@@ -7,12 +7,12 @@ const MobileMenu = ({ menuItems, seletedMenu, selectMenu, togaleMenu, isOpen }) 
             <ul>
                 {menuItems.map((menuItem) => {
                     return (
-                        <MenuItem 
-                          key={menuItem} 
-                          menuItem={menuItem} 
-                          seletedMenu={seletedMenu} 
-                          selectMenu={selectMenu} 
-                          togaleMenu={togaleMenu}
+                        <MenuItem
+                            key={menuItem}
+                            menuItem={menuItem}
+                            seletedMenu={seletedMenu}
+                            selectMenu={selectMenu}
+                            togaleMenu={togaleMenu}
                         />
                     );
                 })}

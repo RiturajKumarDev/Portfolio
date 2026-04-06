@@ -32,7 +32,7 @@ const Projects = () => {
             appName: "Personal Portfolio Website",
             imageUrl: "/img/Portfolio.png",
             description: "A personal portfolio website showcasing projects, skills, and achievements. Designed to present work in a clean and professional manner.",
-            visitUrl: "https://github.com/RiturajKumarDev/Portfolio",
+            visitUrl: "https://portfolio-omega-coral-4e372hgq4b.vercel.app/",
             githugUrl: "https://github.com/RiturajKumarDev/Portfolio"
         }
     ];
@@ -60,7 +60,7 @@ const Projects = () => {
             imageUrl: "/img/FreshSenseAi_Logo.png",
             description: "An intelligent app that analyzes fruit freshness using sensor data and AI. It predicts whether fruits are fresh, need to be used soon, or are spoiled, along with remaining shelf life.",
             visitUrl: "https://play.google.com/store/apps/details?id=com.rituraj.freshsenseai",
-            githugUrl: "https://github.com/RiturajKumarDev"
+            githugUrl: "https://github.com/RiturajKumarDev/Fresh-Sense-AI-APP"
         },
         {
             name: "Card Matcher Game",
@@ -78,8 +78,8 @@ const Projects = () => {
             appName: "AI-powered app to detect fruit freshness and predict spoilage.",
             imageUrl: "/img/FreshSenseAi_Logo.png",
             description: "An intelligent app that analyzes fruit freshness using sensor data and AI. It predicts whether fruits are fresh, need to be used soon, or are spoiled, along with remaining shelf life.",
-            visitUrl: "https://play.google.com/store/apps/details?id=com.rituraj.freshsenseai",
-            githugUrl: "https://github.com/RiturajKumarDev"
+            visitUrl: "https://fresh-sense-ai-api-1.onrender.com/",
+            githugUrl: "https://github.com/RiturajKumarDev/Fresh-Sense-AI-API"
         },
     ]
 

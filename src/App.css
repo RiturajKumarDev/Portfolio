@@ -19,10 +19,13 @@ main {
 
   img {
     height: 330px;
-    border: 5px rgb(81, 80, 80) solid;
     border-radius: 100%;
-    box-shadow: 0 0 20px var(--main-hover-color);
+    /* box-shadow: 0 0 5px var(--main-hover-color); */
     transition: 1s all;
+    border: 5px dashed transparent;
+    background:
+      linear-gradient(white, white) padding-box,
+      var(--main-button-bg-color) border-box;
 
     &:hover {
       box-shadow: 0 0 40px var(--main-hover-color);
