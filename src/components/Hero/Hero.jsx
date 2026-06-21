@@ -59,7 +59,7 @@ const Hero = () => {
 
           {/* Typewriter */}
           <div className="hero__typewriter">
-            <span className="hero__role-prefix">I build </span>
+            <span className="hero__role-prefix">I am </span>
             <span className="hero__role">{typedText}</span>
             <span className="hero__cursor" />
           </div>
