@@ -36,7 +36,7 @@ export const webProjectsList = [
     imageUrl: "/img/Future-Focus-Classes.png",
     description:
       "An online study platform for students to access courses, learning materials, and educational resources easily.",
-    visitUrl: "https://future-focus-classes.vercel.app/",
+    visitUrl: "https://fflms.vercel.app/",
     githubUrl: "https://github.com/RiturajKumarDev/Future-Focus-Classes",
     tags: ["React", "Firebase", "CSS"],
   },
