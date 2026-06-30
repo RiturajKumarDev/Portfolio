@@ -36,9 +36,8 @@ const Navbar = () => {
       <div className="navbar__container">
         {/* Logo */}
         <a
-          href="#home"
+          href="https://portfolio-rkd.vercel.app/"
           className="navbar__logo"
-          onClick={(e) => { e.preventDefault(); scrollTo('#home'); }}
         >
           <div className="navbar__logo-mark">RK</div>
           <div className="navbar__logo-info">

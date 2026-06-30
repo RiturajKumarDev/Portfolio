@@ -5,10 +5,10 @@ import { webProjectsList, appProjectsList, aiMlProjectsList } from '../../data/p
 import './Projects.css';
 
 const filters = [
-  { label: 'All',     icon: FaGlobe,     key: 'all' },
-  { label: 'Web',     icon: FaGlobe,     key: 'web' },
-  { label: 'Mobile',  icon: FaMobileAlt, key: 'mobile' },
-  { label: 'AI / ML', icon: FaBrain,     key: 'ai' },
+  { label: 'All', icon: FaGlobe, key: 'all' },
+  { label: 'Web', icon: FaGlobe, key: 'web' },
+  { label: 'Mobile', icon: FaMobileAlt, key: 'mobile' },
+  { label: 'AI / ML', icon: FaBrain, key: 'ai' },
 ];
 
 const allProjects = [
@@ -30,6 +30,7 @@ const ProjectCard = ({ project, index }) => {
       <div className="project-card__img-wrap">
         {!imgError ? (
           <img
+            loading='lazy'
             src={project.imageUrl}
             alt={project.name}
             className="project-card__img"
@@ -65,9 +66,9 @@ const ProjectCard = ({ project, index }) => {
 
         {/* Category emoji badge */}
         <div className="project-card__cat-badge">
-          {project.category === 'web'    && '🌐'}
+          {project.category === 'web' && '🌐'}
           {project.category === 'mobile' && '📱'}
-          {project.category === 'ai'     && '🤖'}
+          {project.category === 'ai' && '🤖'}
         </div>
       </div>
 
