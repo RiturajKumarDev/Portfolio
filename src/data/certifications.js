@@ -45,7 +45,7 @@ export const certificationsList = [
     issuer: "ABESIT Group of Institutions",
     date: "May 19 - June 13, 2025",
     description: "Completed 20 Hrs. training program on Getting Started with C++.",
-    image: "img/Getting Started with C++.jpg",
+    image: "img/Getting Started with Cpp.jpg",
     category: "Course",
     color: "#10b981"
   },
@@ -65,7 +65,7 @@ export const certificationsList = [
     issuer: "IBM SkillsBuild (1M1B)",
     date: "May 9, 2026",
     description: "Successfully completed the 1M1B | AI + Sustainability Virtual Internship.",
-    image: "img/AI + Sustainability Virtual Internship.jpg",
+    image: "img/AI Sustainability Virtual Internship.jpg",
     category: "Internship",
     color: "#3b82f6"
   },
