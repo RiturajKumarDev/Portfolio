@@ -15,16 +15,16 @@ const roles = [
 ];
 
 const socials = [
-  { icon: FaGithub,    href: 'https://github.com/RiturajKumarDev',             label: 'GitHub' },
-  { icon: FaLinkedin,  href: 'https://www.linkedin.com/in/rituraj-kumar-dev/', label: 'LinkedIn' },
-  { icon: FaXTwitter,  href: 'https://x.com/RITURAJKUMARDEV',                 label: 'Twitter' },
-  { icon: FaInstagram, href: 'https://www.instagram.com/rituraj.kumar.dev',   label: 'Instagram' },
+  { icon: FaGithub, href: 'https://github.com/RiturajKumarDev', label: 'GitHub' },
+  { icon: FaLinkedin, href: 'https://www.linkedin.com/in/rituraj-kumar-dev/', label: 'LinkedIn' },
+  { icon: FaXTwitter, href: 'https://x.com/RITURAJKUMARDEV', label: 'Twitter' },
+  { icon: FaInstagram, href: 'https://www.instagram.com/rituraj.kumar.dev', label: 'Instagram' },
 ];
 
 const stats = [
   { value: '15+', label: 'Projects' },
-  { value: '6+',  label: 'Apps' },
-  { value: '2+',  label: 'Years' },
+  { value: '6+', label: 'Apps' },
+  { value: '2+', label: 'Years' },
 ];
 
 const Hero = () => {
@@ -66,8 +66,7 @@ const Hero = () => {
 
           {/* Bio */}
           <p className="hero__bio">
-            Passionate developer crafting elegant web & mobile experiences.
-            I build products that are <strong>fast</strong>, <strong>accessible</strong>, and <strong>beautiful</strong> — from concept to deployment.
+            Full Stack Developer specializing in MERN, Python, Android, and AI/ML, with experience building 15+ production-ready web, mobile, and intelligent applications. Hackathon winner and AI intern passionate about developing scalable software and AI-powered solutions for real-world challenges.
           </p>
 
           {/* CTAs */}

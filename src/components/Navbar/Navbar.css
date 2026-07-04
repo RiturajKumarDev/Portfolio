@@ -185,7 +185,7 @@
 }
 
 .navbar__mobile--open {
-  max-height: 480px;
+  max-height: 490px;
   border-top-color: var(--border);
 }
 

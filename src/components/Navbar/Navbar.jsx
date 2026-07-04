@@ -10,13 +10,14 @@ const navLinks = [
   { label: 'Experience', href: '#experience' },
   { label: 'Skills',     href: '#skills' },
   { label: 'Projects',   href: '#projects' },
+  { label: 'Certifications', href: '#certifications' },
   { label: 'Contact',    href: '#contact' },
 ];
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const active = useScrollSpy(['home', 'about', 'expertise', 'experience', 'skills', 'projects', 'contact'], 100);
+  const active = useScrollSpy(['home', 'about', 'expertise', 'experience', 'skills', 'projects', 'certifications', 'contact'], 100);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 30);
