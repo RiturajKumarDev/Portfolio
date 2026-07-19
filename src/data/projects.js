@@ -1,15 +1,5 @@
 export const webProjectsList = [
   {
-    name: "Click Cart",
-    appName: "E-commerce Web Application",
-    imageUrl: "/img/click-cart.jpg",
-    description:
-      "A modern e-commerce web app for browsing products, managing carts, and placing orders with a smooth user experience.",
-    visitUrl: "https://riturajkumarty.pythonanywhere.com/",
-    githubUrl: "https://github.com/RiturajKumarDev/CLICKCART-Ecommerce-WebApp",
-    tags: ["React", "Python", "Django"],
-  },
-  {
     name: "Shop Adda",
     appName: "E-Commerce Platform",
     imageUrl: "/img/shopAdda.png",
@@ -18,6 +8,16 @@ export const webProjectsList = [
     visitUrl: "https://shop-adda-pi.vercel.app",
     githubUrl: "https://github.com/RiturajKumarDev/ShopAddaBackend",
     tags: ["React", "Node.js", "MongoDB"],
+  },
+  {
+    name: "Click Cart",
+    appName: "E-commerce Web Application",
+    imageUrl: "/img/click-cart.jpg",
+    description:
+      "A modern e-commerce web app for browsing products, managing carts, and placing orders with a smooth user experience.",
+    visitUrl: "https://riturajkumarty.pythonanywhere.com/",
+    githubUrl: "https://github.com/RiturajKumarDev/CLICKCART-Ecommerce-WebApp",
+    tags: ["React", "Python", "Django"],
   },
   {
     name: "Quick Hire",
@@ -41,6 +41,16 @@ export const webProjectsList = [
     tags: ["React", "Firebase", "CSS"],
   },
   {
+    name: "Rituraj's Portfolio",
+    appName: "Personal Portfolio Website",
+    imageUrl: "/img/Portfolio.png",
+    description:
+      "A personal portfolio website showcasing projects, skills, and achievements. Designed to present work in a clean and professional manner.",
+    visitUrl: "https://portfolio-rituraj-kumar.vercel.app",
+    githubUrl: "https://github.com/RiturajKumarDev/Portfolio",
+    tags: ["React", "CSS", "Vite"],
+  },
+  {
     name: "Student Result Management",
     appName: "Student Result Management System",
     imageUrl: "/img/result.jpeg",
@@ -50,16 +60,6 @@ export const webProjectsList = [
       "https://github.com/RiturajKumarDev/StudentResultManagement",
     githubUrl: "https://github.com/RiturajKumarDev/StudentResultManagement",
     tags: ["Java", "SQL", "HTML"],
-  },
-  {
-    name: "Rituraj's Portfolio",
-    appName: "Personal Portfolio Website",
-    imageUrl: "/img/Portfolio.png",
-    description:
-      "A personal portfolio website showcasing projects, skills, and achievements. Designed to present work in a clean and professional manner.",
-    visitUrl: "https://portfolio-rituraj-kumar.vercel.app",
-    githubUrl: "https://github.com/RiturajKumarDev/Portfolio",
-    tags: ["React", "CSS", "Vite"],
   },
 ];
 
@@ -87,17 +87,6 @@ export const appProjectsList = [
     tags: ["Flutter", "Firebase", "Android"],
   },
   {
-    name: "Card Matcher Game",
-    appName: "Enjoy card matching gameplay in online and offline modes with friends.",
-    imageUrl: "/img/card_matcher_game_logo.png",
-    description:
-      "A memory-based card matching game with online and offline modes for fun, challenging, and interactive gameplay.",
-    visitUrl:
-      "https://play.google.com/store/apps/details?id=com.rituraj.cardmatcher_brainmaster",
-    githubUrl: "https://github.com/RiturajKumarDev",
-    tags: ["Flutter", "Android", "Game"],
-  },
-  {
     name: "Tic Tac Toe",
     appName: "Classic Multiplayer Game",
     imageUrl: "/img/tic_tac_toe_logo.jpeg",
@@ -108,9 +97,30 @@ export const appProjectsList = [
     githubUrl: "https://github.com/RiturajKumarDev",
     tags: ["Flutter", "Android", "Multiplayer"],
   },
+  {
+    name: "Card Matcher Game",
+    appName: "Enjoy card matching gameplay in online and offline modes with friends.",
+    imageUrl: "/img/card_matcher_game_logo.png",
+    description:
+      "A memory-based card matching game with online and offline modes for fun, challenging, and interactive gameplay.",
+    visitUrl:
+      "https://play.google.com/store/apps/details?id=com.rituraj.cardmatcher_brainmaster",
+    githubUrl: "https://github.com/RiturajKumarDev",
+    tags: ["Flutter", "Android", "Game"],
+  },
 ];
 
 export const aiMlProjectsList = [
+  {
+    name: "GreenQ",
+    appName: "Smart City Climate Resiliency Framework",
+    imageUrl: "/img/GreenQ.jpg",
+    description:
+      "Predict, simulate, and mitigate the Urban Heat Island (UHI) effect using machine learning to model heat reduction pathways and optimize tree canopies.",
+    visitUrl: "https://github.com/Anshii123/Smart-City-Climate-Platform",
+    githubUrl: "https://github.com/Anshii123/Smart-City-Climate-Platform", 
+    tags: ["Machine Learning", "AI", "Web"],
+  },
   {
     name: "Fresh Sense AI",
     appName: "AI-powered app to detect fruit freshness and predict spoilage.",
