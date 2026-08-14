@@ -10,6 +10,26 @@ export const webProjectsList = [
     tags: ["React", "Node.js", "MongoDB"],
   },
   {
+    name: "Future Focus Classes",
+    appName: "Online Learning & Study Platform",
+    imageUrl: "/img/Future-Focus-Classes.png",
+    description:
+      "An online study platform for students to access courses, learning materials, and educational resources easily.",
+    visitUrl: "https://fflms.vercel.app/",
+    githubUrl: "https://github.com/RiturajKumarDev/Future-Focus-Classes",
+    tags: ["React", "Firebase", "CSS"],
+  },
+  {
+    name: "Rituraj's Portfolio",
+    appName: "Personal Portfolio Website",
+    imageUrl: "/img/rituraj.jpeg",
+    description:
+      "A personal portfolio website showcasing projects, skills, and achievements. Designed to present work in a clean and professional manner.",
+    visitUrl: "https://portfolio-rituraj-kumar.vercel.app",
+    githubUrl: "https://github.com/RiturajKumarDev/Portfolio",
+    tags: ["React", "CSS", "Vite"],
+  },
+  {
     name: "Click Cart",
     appName: "E-commerce Web Application",
     imageUrl: "/img/click-cart.jpg",
@@ -31,26 +51,6 @@ export const webProjectsList = [
     tags: ["Python", "Django", "SQL"],
   },
   {
-    name: "Future Focus Classes",
-    appName: "Online Learning & Study Platform",
-    imageUrl: "/img/Future-Focus-Classes.png",
-    description:
-      "An online study platform for students to access courses, learning materials, and educational resources easily.",
-    visitUrl: "https://fflms.vercel.app/",
-    githubUrl: "https://github.com/RiturajKumarDev/Future-Focus-Classes",
-    tags: ["React", "Firebase", "CSS"],
-  },
-  {
-    name: "Rituraj's Portfolio",
-    appName: "Personal Portfolio Website",
-    imageUrl: "/img/Portfolio.png",
-    description:
-      "A personal portfolio website showcasing projects, skills, and achievements. Designed to present work in a clean and professional manner.",
-    visitUrl: "https://portfolio-rituraj-kumar.vercel.app",
-    githubUrl: "https://github.com/RiturajKumarDev/Portfolio",
-    tags: ["React", "CSS", "Vite"],
-  },
-  {
     name: "Student Result Management",
     appName: "Student Result Management System",
     imageUrl: "/img/result.jpeg",
@@ -65,17 +65,6 @@ export const webProjectsList = [
 
 export const appProjectsList = [
   {
-    name: "Focus Test Series",
-    appName: "Create and manage test papers easily using PDF, images, or manual question entry.",
-    imageUrl: "/img/Focus_Test_Series.png",
-    description:
-      "A test series platform for creating, managing, and attempting tests with PDF, image, and manual question support.",
-    visitUrl:
-      "https://play.google.com/store/apps/details?id=com.rituraj.focustestseries",
-    githubUrl: "https://github.com/RiturajKumarDev",
-    tags: ["Flutter", "Firebase", "Android"],
-  },
-  {
     name: "Kirana Store",
     appName: "Simple and smart grocery shopping experience.",
     imageUrl: "/img/shivam_kirana_store.png",
@@ -84,18 +73,29 @@ export const appProjectsList = [
     visitUrl:
       "https://play.google.com/store/apps/details?id=com.rituraj.shivamkiranastore",
     githubUrl: "https://github.com/RiturajKumarDev",
-    tags: ["Flutter", "Firebase", "Android"],
+    tags: ["Fava", "Firebase", "XML", "Android"],
   },
   {
-    name: "Tic Tac Toe",
-    appName: "Classic Multiplayer Game",
-    imageUrl: "/img/tic_tac_toe_logo.jpeg",
+    name: "Seva Sathi",
+    appName: "A simple and helpful service app for everyday needs.",
+    imageUrl: "/img/seva_sathi.jpeg",
     description:
-      "A fun and interactive Tic Tac Toe game with single-player and multiplayer modes, smart AI opponent, score tracking, and a clean modern interface.",
+      "A service-based mobile app designed to provide users with easy access to essential services through a simple and user-friendly experience.",
     visitUrl:
-      "https://play.google.com/store/apps/details?id=com.rituraj.tictactoeonlineapp",
+      "https://play.google.com/store/apps/details?id=com.rituraj.sevamitra",
     githubUrl: "https://github.com/RiturajKumarDev",
-    tags: ["Flutter", "Android", "Multiplayer"],
+    tags: ["Fava", "Firebase", "XML", "Android"],
+  },
+  {
+    name: "Focus Test Series",
+    appName: "Create and manage test papers easily using PDF, images, or manual question entry.",
+    imageUrl: "/img/Focus_Test_Series.png",
+    description:
+      "A test series platform for creating, managing, and attempting tests with PDF, image, and manual question support.",
+    visitUrl:
+      "https://play.google.com/store/apps/details?id=com.rituraj.focustestseries",
+    githubUrl: "https://github.com/RiturajKumarDev",
+    tags: ["Fava", "Firebase", "XML", "Android"],
   },
   {
     name: "Card Matcher Game",
@@ -108,18 +108,30 @@ export const appProjectsList = [
     githubUrl: "https://github.com/RiturajKumarDev",
     tags: ["Flutter", "Android", "Game"],
   },
+  {
+    name: "Tic Tac Toe",
+    appName: "Classic Multiplayer Game",
+    imageUrl: "/img/tic_tac_toe_logo.jpeg",
+    description:
+      "A fun and interactive Tic Tac Toe game with single-player and multiplayer modes, smart AI opponent, score tracking, and a clean modern interface.",
+    visitUrl:
+      "https://play.google.com/store/apps/details?id=com.rituraj.tictactoeonlineapp",
+    githubUrl: "https://github.com/RiturajKumarDev",
+    tags: ["Flutter", "Android", "Multiplayer"],
+  },
 ];
 
 export const aiMlProjectsList = [
   {
-    name: "GreenQ",
-    appName: "Smart City Climate Resiliency Framework",
-    imageUrl: "/img/GreenQ.jpg",
+    name: "Loan Decision Intelligence",
+    appName: "AI-powered loan risk assessment and approval prediction system.",
+    imageUrl: "/img/Loan Decision Intelligence.png",
     description:
-      "Predict, simulate, and mitigate the Urban Heat Island (UHI) effect using machine learning to model heat reduction pathways and optimize tree canopies.",
-    visitUrl: "https://github.com/Anshii123/Smart-City-Climate-Platform",
-    githubUrl: "https://github.com/Anshii123/Smart-City-Climate-Platform", 
-    tags: ["Machine Learning", "AI", "Web"],
+      "An AI-powered loan prediction system that analyzes financial data, assesses risk, and predicts loan approval chances in real time.",
+    visitUrl:
+      "https://riturajkumardev.github.io/Loan-Decision-Intelligence",
+    githubUrl: "https://github.com/RiturajKumarDev/Loan-Decision-Intelligence",
+    tags: ["Python", "ML", "Data Science"],
   },
   {
     name: "Fresh Sense AI",
@@ -132,14 +144,13 @@ export const aiMlProjectsList = [
     tags: ["Python", "AI/ML", "React"],
   },
   {
-    name: "Loan Decision Intelligence",
-    appName: "AI-powered loan risk assessment and approval prediction system.",
-    imageUrl: "/img/Loan Decision Intelligence.png",
+    name: "GreenQ",
+    appName: "Smart City Climate Resiliency Framework",
+    imageUrl: "/img/GreenQ.jpg",
     description:
-      "An AI-powered loan prediction system that analyzes financial data, assesses risk, and predicts loan approval chances in real time.",
-    visitUrl:
-      "https://riturajkumardev.github.io/Loan-Decision-Intelligence",
-    githubUrl: "https://github.com/RiturajKumarDev/Loan-Decision-Intelligence",
-    tags: ["Python", "ML", "Data Science"],
+      "Predict, simulate, and mitigate the Urban Heat Island (UHI) effect using machine learning to model heat reduction pathways and optimize tree canopies.",
+    visitUrl: "https://github.com/Anshii123/Smart-City-Climate-Platform",
+    githubUrl: "https://github.com/Anshii123/Smart-City-Climate-Platform",
+    tags: ["Machine Learning", "AI", "Web"],
   },
 ];
