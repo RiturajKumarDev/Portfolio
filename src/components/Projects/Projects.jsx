@@ -1,14 +1,14 @@
 import { useState, useRef, useEffect } from 'react';
 import { FiExternalLink, FiGithub } from 'react-icons/fi';
-import { FaGlobe, FaMobileAlt, FaBrain } from 'react-icons/fa';
+import { FaGlobe, FaMobileAlt, FaRobot, FaLayerGroup } from 'react-icons/fa';
 import { webProjectsList, appProjectsList, aiMlProjectsList } from '../../data/projects';
 import './Projects.css';
 
 const filters = [
-  { label: 'All', icon: FaGlobe, key: 'all' },
+  { label: 'All', icon: FaLayerGroup, key: 'all' },
   { label: 'Web', icon: FaGlobe, key: 'web' },
   { label: 'Mobile', icon: FaMobileAlt, key: 'mobile' },
-  { label: 'AI / ML', icon: FaBrain, key: 'ai' },
+  { label: 'AI / ML', icon: FaRobot, key: 'ai' },
 ];
 
 const allProjects = [
@@ -64,11 +64,11 @@ const ProjectCard = ({ project, index }) => {
           </div>
         </div>
 
-        {/* Category emoji badge */}
-        <div className="project-card__cat-badge">
-          {project.category === 'web' && '🌐'}
-          {project.category === 'mobile' && '📱'}
-          {project.category === 'ai' && '🤖'}
+        {/* Category badge */}
+        <div className="project-card__cat-badge" title={project.category}>
+          {project.category === 'web' && <FaGlobe size={15} color="#00d4ff" />}
+          {project.category === 'mobile' && <FaMobileAlt size={15} color="#3ddc84" />}
+          {project.category === 'ai' && <FaRobot size={15} color="#a855f7" />}
         </div>
       </div>
 

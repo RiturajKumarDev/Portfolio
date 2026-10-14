@@ -74,8 +74,8 @@ const Hero = () => {
             <button className="btn-primary hero__cta-main" onClick={() => scrollTo('projects')}>
               View Projects <FiArrowDown />
             </button>
-            <a href="/Resume_Rituraj_Kumar.pdf" download className="btn-secondary hero__cta-secondary">
-              <FiDownload /> Resume
+            <a href="/Resume_Rituraj_Kumar.pdf" target='_blank' className="btn-secondary hero__cta-secondary">
+              Resume
             </a>
           </div>
 

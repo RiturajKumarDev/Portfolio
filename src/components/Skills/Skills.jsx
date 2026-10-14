@@ -3,25 +3,30 @@ import { skillCategories } from '../../data/skills';
 import {
   FaReact, FaJs, FaHtml5, FaCss3Alt, FaNodeJs, FaPython, FaJava, FaGitAlt,
   FaComments, FaUsers, FaBrain, FaUserTie, FaClock, FaLightbulb, FaGithub,
+  FaAws, FaDatabase, FaCubes, FaSyncAlt, FaPalette,
+  FaCode, FaLaptopCode, FaServer, FaMicrochip, FaTools, FaRobot,
 } from 'react-icons/fa';
 import {
   SiExpress, SiDjango, SiMongodb, SiMysql, SiFirebase, SiSqlite,
   SiC, SiCplusplus, SiCodeforces, SiXml, SiPostman, SiAndroid,
   SiKotlin, SiGradle, SiGoogleplay, SiTensorflow, SiScikitlearn,
-  SiNumpy, SiPandas, SiJupyter,
+  SiNumpy, SiPandas, SiJupyter, SiFastapi, SiPostgresql, SiDocker,
+  SiVercel, SiRender,
 } from 'react-icons/si';
+import { TbApi } from 'react-icons/tb';
 import { VscVscode } from 'react-icons/vsc';
-import { FaSyncAlt, FaPalette } from 'react-icons/fa';
 import './Skills.css';
 
 const iconMap = {
   FaReact, FaJs, FaHtml5, FaCss3Alt, FaNodeJs, FaPython, FaJava, FaGitAlt,
   FaComments, FaUsers, FaBrain, FaUserTie, FaClock, FaLightbulb, FaSyncAlt,
-  FaPalette, FaGithub,
+  FaPalette, FaGithub, FaAws, FaDatabase, FaCubes,
+  FaCode, FaLaptopCode, FaServer, FaMicrochip, FaTools, FaRobot,
   SiExpress, SiDjango, SiMongodb, SiMysql, SiFirebase, SiSqlite, SiC,
   SiCplusplus, SiCodeforces, SiXml, SiPostman, SiAndroid, SiKotlin,
   SiGradle, SiGoogleplay, SiTensorflow, SiScikitlearn, SiNumpy, SiPandas,
-  SiJupyter, VscVscode,
+  SiJupyter, SiFastapi, SiPostgresql, SiDocker, SiVercel, SiRender,
+  TbApi, VscVscode,
 };
 
 
@@ -97,16 +102,21 @@ const Skills = () => {
 
         {/* Tabs */}
         <div className="skills__tabs scroll-reveal">
-          {skillCategories.map((cat, i) => (
-            <button
-              key={cat.title}
-              className={`skills__tab ${activeTab === i ? 'skills__tab--active' : ''}`}
-              onClick={() => handleTabChange(i)}
-            >
-              <span className="skills__tab-icon">{cat.icon}</span>
-              {cat.title}
-            </button>
-          ))}
+          {skillCategories.map((cat, i) => {
+            const TabIcon = iconMap[cat.icon];
+            return (
+              <button
+                key={cat.title}
+                className={`skills__tab ${activeTab === i ? 'skills__tab--active' : ''}`}
+                onClick={() => handleTabChange(i)}
+              >
+                <span className="skills__tab-icon">
+                  {TabIcon ? <TabIcon size={16} /> : cat.icon}
+                </span>
+                {cat.title}
+              </button>
+            );
+          })}
         </div>
 
         {/* Grid — key forces remount when tab changes so cards re-appear */}

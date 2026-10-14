@@ -88,5 +88,15 @@ export const certificationsList = [
     image: "img/Hacknovate 7.0 Participation.jpg",
     category: "Hackathon",
     color: "#00d4ff"
+  },
+  {
+    id: 10,
+    title: "Foundations of Supervised Machine Learning with Python",
+    issuer: "ABESIT Group of Institutions",
+    date: "Jan 27 - Apr 21, 2026",
+    description: "Completed 34 Hrs Training Program on Foundations of Supervised Machine Learning with Python.",
+    image: "img/Foundations_of_Supervised_Machine_Learning.png",
+    category: "Course",
+    color: "#6366f1"
   }
 ];

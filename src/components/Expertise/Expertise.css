@@ -89,21 +89,37 @@
 .exp-card__emoji-wrap {
   position: relative;
   flex-shrink: 0;
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--card-border, rgba(255, 255, 255, 0.1));
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.exp-card:hover .exp-card__emoji-wrap {
+  transform: scale(1.08);
+  border-color: var(--card-accent, #00d4ff);
 }
 
 .exp-card__emoji {
-  font-size: 2.4rem;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   line-height: 1;
-  filter: drop-shadow(0 0 12px var(--card-accent, #00d4ff));
+  color: var(--card-accent, #00d4ff);
+  filter: drop-shadow(0 0 10px var(--card-accent, #00d4ff));
 }
 
 .exp-card__emoji-glow {
   position: absolute;
-  inset: -8px;
-  border-radius: 50%;
+  inset: -6px;
+  border-radius: inherit;
   background: radial-gradient(circle, var(--card-accent, #00d4ff) 0%, transparent 70%);
-  opacity: 0.15;
+  opacity: 0.2;
   animation: pulse-glow 3s ease-in-out infinite;
   pointer-events: none;
 }

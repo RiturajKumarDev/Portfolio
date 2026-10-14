@@ -15,9 +15,20 @@ export const webProjectsList = [
     imageUrl: "/img/Future-Focus-Classes.png",
     description:
       "An online study platform for students to access courses, learning materials, and educational resources easily.",
-    visitUrl: "https://fflms.vercel.app/",
+    visitUrl: "https://future-focus-classes.vercel.app",
     githubUrl: "https://github.com/RiturajKumarDev/Future-Focus-Classes",
     tags: ["React", "Firebase", "CSS"],
+  },
+  {
+    name: "Loan Decision Intelligence",
+    appName: "AI-powered loan risk assessment and approval prediction system.",
+    imageUrl: "/img/Loan Decision Intelligence.png",
+    description:
+      "An AI-powered loan prediction system that analyzes financial data, assesses risk, and predicts loan approval chances in real time.",
+    visitUrl:
+      "https://loan-decision-intelligence.vercel.app/",
+    githubUrl: "https://github.com/RiturajKumarDev/Loan-Decision-Intelligence",
+    tags: ["Python", "ML", "Data Science"],
   },
   {
     name: "Rituraj's Portfolio",
@@ -65,17 +76,6 @@ export const webProjectsList = [
 
 export const appProjectsList = [
   {
-    name: "Kirana Store",
-    appName: "Simple and smart grocery shopping experience.",
-    imageUrl: "/img/shivam_kirana_store.png",
-    description:
-      "A grocery shopping app for local stores with easy product browsing, order management, and a smooth user experience.",
-    visitUrl:
-      "https://play.google.com/store/apps/details?id=com.rituraj.shivamkiranastore",
-    githubUrl: "https://github.com/RiturajKumarDev",
-    tags: ["Fava", "Firebase", "XML", "Android"],
-  },
-  {
     name: "Seva Sathi",
     appName: "A simple and helpful service app for everyday needs.",
     imageUrl: "/img/seva_sathi.jpeg",
@@ -83,6 +83,17 @@ export const appProjectsList = [
       "A service-based mobile app designed to provide users with easy access to essential services through a simple and user-friendly experience.",
     visitUrl:
       "https://play.google.com/store/apps/details?id=com.rituraj.sevamitra",
+    githubUrl: "https://github.com/RiturajKumarDev",
+    tags: ["Fava", "Firebase", "XML", "Android"],
+  },
+  {
+    name: "Kirana Store",
+    appName: "Simple and smart grocery shopping experience.",
+    imageUrl: "/img/shivam_kirana_store.png",
+    description:
+      "A grocery shopping app for local stores with easy product browsing, order management, and a smooth user experience.",
+    visitUrl:
+      "https://play.google.com/store/apps/details?id=com.rituraj.shivamkiranastore",
     githubUrl: "https://github.com/RiturajKumarDev",
     tags: ["Fava", "Firebase", "XML", "Android"],
   },
@@ -129,7 +140,7 @@ export const aiMlProjectsList = [
     description:
       "An AI-powered loan prediction system that analyzes financial data, assesses risk, and predicts loan approval chances in real time.",
     visitUrl:
-      "https://riturajkumardev.github.io/Loan-Decision-Intelligence",
+      "https://loan-decision-intelligence.vercel.app/",
     githubUrl: "https://github.com/RiturajKumarDev/Loan-Decision-Intelligence",
     tags: ["Python", "ML", "Data Science"],
   },

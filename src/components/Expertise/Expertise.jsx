@@ -1,5 +1,8 @@
 import { useRef, useEffect } from 'react';
-import { FaReact, FaNodeJs, FaJava, FaPython, FaDatabase, FaAndroid } from 'react-icons/fa';
+import {
+  FaReact, FaNodeJs, FaJava, FaPython, FaDatabase, FaAndroid,
+  FaGlobe, FaMobileAlt, FaRobot
+} from 'react-icons/fa';
 import { SiMongodb, SiExpress, SiAndroid, SiKotlin, SiTensorflow, SiScikitlearn, SiNumpy } from 'react-icons/si';
 import { FiArrowRight } from 'react-icons/fi';
 import './Expertise.css';
@@ -7,7 +10,7 @@ import './Expertise.css';
 const expertiseData = [
   {
     id: 'mern',
-    emoji: '🌐',
+    icon: FaGlobe,
     title: 'MERN Stack',
     subtitle: 'Full Stack Web Development',
     gradient: 'linear-gradient(135deg, #00d4ff22 0%, #7c3aed22 100%)',
@@ -34,7 +37,7 @@ const expertiseData = [
   },
   {
     id: 'android',
-    emoji: '📱',
+    icon: FaMobileAlt,
     title: 'Android App Dev',
     subtitle: 'Native Android — Java & XML',
     gradient: 'linear-gradient(135deg, #3ddc8422 0%, #00c85322 100%)',
@@ -61,7 +64,7 @@ const expertiseData = [
   },
   {
     id: 'aiml',
-    emoji: '🤖',
+    icon: FaRobot,
     title: 'AI / ML',
     subtitle: 'Machine Learning & Computer Vision',
     gradient: 'linear-gradient(135deg, #a855f722 0%, #ec489922 100%)',
@@ -142,7 +145,9 @@ const Expertise = () => {
               {/* Top section */}
               <div className="exp-card__header">
                 <div className="exp-card__emoji-wrap">
-                  <span className="exp-card__emoji">{item.emoji}</span>
+                  <span className="exp-card__emoji">
+                    {item.icon ? <item.icon size={26} /> : item.emoji}
+                  </span>
                   <div className="exp-card__emoji-glow" />
                 </div>
                 <div className="exp-card__header-info">
